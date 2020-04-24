@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Data.Ef\Common.Data.Ef.csproj" />
+    <ProjectReference Include="..\Common.Data\Common.Data.csproj" />
+    <ProjectReference Include="..\Liki24.Data.Dto\Liki24.Data.Dto.csproj" />
+    <ProjectReference Include="..\Liki24.Data.Ef\Liki24.Data.Ef.csproj" />
+    <ProjectReference Include="..\Liki24.Data\Liki24.Data.csproj" />
+  </ItemGroup>
+
+</Project>

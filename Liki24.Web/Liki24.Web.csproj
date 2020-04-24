@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Data.Ef\Common.Data.Ef.csproj" />
+    <ProjectReference Include="..\Liki24.Data.Dto\Liki24.Data.Dto.csproj" />
+    <ProjectReference Include="..\Liki24.Data.Ef\Liki24.Data.Ef.csproj" />
+    <ProjectReference Include="..\Liki24.Services\Liki24.Services.csproj" />
+  </ItemGroup>
+
+</Project>
